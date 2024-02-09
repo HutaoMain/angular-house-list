@@ -1,1 +1,12 @@
-<p>housing-location works!</p>
+<section class="listing">
+  <img
+    class="listing-photo"
+    [src]="housingLocation.photo"
+    alt="Exterior photo of {{ housingLocation.photo }}"
+  />
+  <h2 class="listing-heading">{{ housingLocation.name }}</h2>
+  <p class="listing-location">
+    <span nz-icon nzType="pushpin" nzTheme="twotone"></span>
+    {{ housingLocation.city }}, {{ housingLocation.state }}
+  </p>
+</section>

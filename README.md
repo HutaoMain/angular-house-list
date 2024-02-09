@@ -10,6 +10,6 @@ References:
 
    - for the tutorial
 
-3. https://ng.ant.design/components/divider/en
+3. https://ng.ant.design/components/icon/en
 
    - for the icon
